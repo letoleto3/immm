@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+\usepackage{cite,enumerate,float,indentfirst}
+
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtext}
+\usepackage{float}
+
+\usepackage{array}
+\usepackage{longtable}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{graphics}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{verbatim}
+
+\newtheorem{example}{Пример}[section]
+\newtheorem{definition}{Определение}[section]
+\newtheorem{proposition}{Предложение}[section]
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{corollary}{Следствие}[section]
+\newtheorem{lemma}{Лемма}[section]
+
+\DeclareMathOperator{\tr}{tr}
+
+\newcommand{\dif}[2]{\frac{\partial #1}{\partial #2}}
+
+%\parindent = 30pt
+%\hoffset = 0pt
+%\voffset = 0pt
+%\oddsidemargin = 72pt
+%\topmargin = 18pt
+%\headheight = 12pt
+%\headsep = 25pt
+%\textheight = 568pt
+%\textwidth = 360pt
+%\marginparsep = 10pt
+%\marginparwidth = 103pt
+%\paperwidth = 597pt
+%\paperheight = 845pt
+
+
+\begin{document}
+
+\renewcommand{\contentsname}{Содержание}
+
+\begin{titlepage} \newpage 
+	\begin{center} МОСКОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИМ. М.В.ЛОМОНОСОВА\\ \end{center} 
+	\vspace{3em} 
+	\begin{center} \Large Механико-математический факультет \\ \end{center}
+	\vspace{5em} 
+	\begin{center} 
+		\textsc{
+			\textit{Аннотация к книге} \linebreak
+			\textbf{
+				Я.Бернулли \linebreak
+				\large{О законе больших чисел}
+			}
+		}
+	\end{center}
+	\vspace{6em} \newbox{\lbox} \savebox{\lbox}{\hbox{Нагорных Яна}} 
+	\newlength{\maxl} \setlength{\maxl}{\wd\lbox} \hfill\parbox{11cm}
+	{ \hspace*{5cm}\hspace*{-5cm}Студент:\hfill\hbox to\maxl{Нагорных Я.В.}\\
+	\hspace*{5cm}\hspace*{-5cm}Преподаватель:\hfill\hbox to\maxl{Подколзина М.А.}\\ \\
+	\hspace*{5cm}\hspace*{-5cm}Группа:\hfill\hbox to\maxl{410}\\ } 
+	\vspace{\fill}
+	\begin{center} Москва \\ 2018 \end{center} 
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+\begin{thebibliography}{99}
+\bibitem{1} Бернулли Я. \textit{О законе больших чисел.} М., Наука. 1986.
+
+
+\end{thebibliography}
+
+\end{document}
